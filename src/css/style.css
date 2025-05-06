@@ -1,0 +1,128 @@
+body{
+    font-family: "Outfit";
+    color: rgb(95, 86, 78);
+    background-color: rgb(243, 229, 215);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.main-card{
+    background-color: rgb(255, 255, 255) ;
+    padding: 40px 35px;
+    width: 50%;
+    border-radius: 25px;
+
+}
+
+.image-omelette{
+    width: 100%;
+    border-radius: 15px;
+}
+
+.title-card{
+    color: rgb(48, 45, 43);
+    font-family: "Young Serif";
+    font-weight: 400;
+}
+
+.purple-area{
+    background-color: rgb(255, 244, 249);
+    padding: 25px;
+    border-radius: 20px;
+}
+
+.title-purple-area{
+    color: rgb(123, 39, 78);
+    font-size: 20px;
+}
+
+.ul-purple-area{
+    list-style: inside;
+    list-style-type: disc;
+}
+
+.li-purple-area::marker{
+    color: rgb(123, 39, 78);
+}
+
+.subtitle-main-card{
+    font-size: 28px;
+    font-family: "Young Serif";
+    font-weight: 400;
+    color: rgb(133, 69, 50);
+}
+
+.line-main-card{
+    border: 1px solid rgb(227, 221, 215); 
+    margin: 30px 0;
+}
+
+.ul-main-card{
+    list-style: inside;
+    list-style-type: disc;
+}
+
+.ol-main-card{
+    list-style:inside;
+    list-style-type: decimal;
+
+}
+
+.li-main-card::marker{
+    color: rgb(133, 69, 50);
+    font-weight: bold;
+}
+
+.table-main-card{
+    border-collapse: collapse; 
+    width: 100%;  
+   
+}
+
+.tbody-main-card td{
+    border-bottom: 2px solid rgb(227, 221, 215); 
+    padding: 20px 30px;
+    text-align: left; 
+}
+
+.nutrition-value{
+    font-weight: bold;
+    color: rgb(133, 69, 50);
+}
+
+.tbody-main-card .border-bot-none{
+    border-bottom: none;
+}
+
+@media(max-width:500px){
+    main{
+        padding: 0;
+    }
+
+    .main-card{
+        width: 100%;
+        padding: 0;
+        border-radius: 0;
+    }
+    .image-omelette{
+        border-radius: 0;
+    }
+
+    .content-container{
+        padding: 0px 25px;
+        padding-bottom: 30px;
+    }
+
+    .tbody-main-card td{
+        padding: 15px 30px;
+    }
+
+}
